@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement", "UserManagement\UserManagement.csproj", "{E5860E65-AAE7-4F31-88B4-3625BBFD3050}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{249CA946-3B41-4784-840C-5BCF820ACC1B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5860E65-AAE7-4F31-88B4-3625BBFD3050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5860E65-AAE7-4F31-88B4-3625BBFD3050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5860E65-AAE7-4F31-88B4-3625BBFD3050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5860E65-AAE7-4F31-88B4-3625BBFD3050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820FDEC3-6A54-495E-A237-A7A08CB66349}
+	EndGlobalSection
+EndGlobal

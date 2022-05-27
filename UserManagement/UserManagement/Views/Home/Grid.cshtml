@@ -1,0 +1,85 @@
+﻿<div class="row d-flex justify-content-start">
+    <div class="col-md-3">
+         <button id="AddButton" type="button">Add</button>
+    </div>
+    <div class="col-md-3">
+        <button id="EditButton" type="button">Edit</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        @(Html.Kendo().Grid <UserManagement.Models.User>()
+                            .Name("grid")
+@*                            .ToolBar(x => x.Create())*@
+                            .Columns(columns =>
+                            {
+                                columns.Bound(p => p.Id);
+                                columns.Bound(p => p.Name);
+                                columns.Bound(p => p.FirstName);
+                                columns.Bound(p => p.LastName);
+                                columns.Bound(p => p.BirthDate).Format("{0:MM/dd/yyyy}");
+                                columns.Bound(p => p.BirthPlace);
+                                columns.Bound(p => p.City);
+                                columns.Bound(p => p.Password);
+                            })
+                             .Selectable(selectable => selectable
+                                .Mode(GridSelectionMode.Single))
+                            .Pageable()
+                            .Sortable()
+                            .Scrollable()
+                            .Filterable()
+                            .HtmlAttributes(new { style = "height:550px;" })
+                            .DataSource(dataSource => dataSource
+                                .Ajax()
+                                .PageSize(20)
+                                .Read(read => read.Action("Users_Read", "Grid"))
+                             )
+        )
+    </div>
+</div>
+
+<script>
+    function navigateToDetails(value) {
+        var url = '@Url.Action("Details", "Details", new {id = "_value" })';
+        var urlWithValue = url.replace('_value', value);
+        window.location.href = urlWithValue;
+    }
+
+    function navigateToAdd() {
+        var url = '@Url.Action("Add", "Details")';
+        window.location.href = url;
+    }
+
+    function saveAsXml(data) {
+        var url = '@Url.Action("Xml", "Details")';
+        window.location.href = url;
+    }
+
+    $("#EditButton").kendoButton({
+        click: function(e) {
+            var grid = $("#grid").data("kendoGrid");
+            //alert(grid);
+            var selectedItem = grid.dataItem(grid.select());
+            //alert(selectedItem.Id)
+            navigateToDetails(selectedItem.Id)
+        }
+    });
+
+     $("#AddButton").kendoButton({
+        click: function(e) {
+            //alert("add_clicked1");
+            navigateToAdd()
+            //alert("add_clicked2");
+        }
+    });
+
+    //$("#XmlButton").kendoButton({
+    //    click: function(e) {
+    //        //alert("add_clicked1");
+    //        var data=$("#grid").data("kendoGrid").dataSource.data();
+    //        saveAsXml()
+    //        alert("XmlButton_clicked");
+    //    }
+    //});
+</script>
