@@ -12047,18 +12047,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\UserManagement\\UserManagement.csproj",
+      "projectUniqueName": "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\UserManagement\\UserManagement.csproj",
       "projectName": "UserManagement",
-      "projectPath": "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\UserManagement\\UserManagement.csproj",
+      "projectPath": "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\UserManagement\\UserManagement.csproj",
       "packagesPath": "C:\\Users\\bitai\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\UserManagement\\obj\\",
+      "outputPath": "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\UserManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\NuGet.Config",
+        "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\NuGet.Config",
         "C:\\Users\\bitai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
