@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SaTcZ5OPmKGOO9ctSFD6elwY21OOqoZN2StgfMAP/MQHpkLnmvI42TVaNC9aaWRsD5T1jjSCEcUGwH6xm5c3dg==",
+  "dgSpecHash": "aeEFQJssW6vHT2w27AZ47PxrTa5/AAqfX+crXBEWRS+Bqbc6NkFHiW6nqdqOAZhtF3Z/ZtrUvx6NXuGGNadhGA==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\UserManagement\\UserManagement.csproj",
+  "projectFilePath": "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\UserManagement\\UserManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bitai\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\bitai\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

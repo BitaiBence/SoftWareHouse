@@ -12047,18 +12047,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\UserManagement\\UserManagement.csproj",
+      "projectUniqueName": "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\UserManagement\\UserManagement.csproj",
       "projectName": "UserManagement",
-      "projectPath": "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\UserManagement\\UserManagement.csproj",
+      "projectPath": "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\UserManagement\\UserManagement.csproj",
       "packagesPath": "C:\\Users\\bitai\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\UserManagement\\obj\\",
+      "outputPath": "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\UserManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "D:\\Desktop\\feladat\\SoftWareHouse\\UserManagement\\NuGet.Config",
+        "D:\\Desktop\\softwarehouseteleriknetcore\\UserManagement\\NuGet.Config",
         "C:\\Users\\bitai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -12068,8 +12068,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Programok\\Telerik\\Telerik UI for ASP.NET Core R2 2022\\": {},
-        "D:\\Programok\\Telerik\\Telerik UI for ASP.NET Core R2 2022\\wrappers\\aspnetcore\\Binaries\\AspNet.Core": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.telerik.com/v3/index.json": {}
       },
